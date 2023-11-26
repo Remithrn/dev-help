@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Saira+Stencil+One&display=swap');
+.logo-name{
+    font-family: 'Saira Stencil One', sans-serif !important;
+    font-size: xx-large;
+}
+.nav-item{
+    font-family: 'Roboto', sans-serif; 
+}
+.new-arrival{
+    margin-left: 4rem;
+}
+@media (min-width: 992px){
+
+.skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 50px;
+}
+}
+
+.skills {
+    padding-block: var(--section-padding);
+}
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    animation-timeline: auto;
+   
+    gap: 15px;
+    animation: 0.5s ease-out 0s 1 normal forwards running fadeIn;
+}
+.skill-card {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    display: grid;
+    box-shadow: var(--shadow-1);
+    cursor: help;
+    background: var(--bg-secondary);
+    place-items: center;
+    border-radius: var(--radius-12);
+}
+.card img{
+    width: 52px;
+    padding: 5px;
+}
